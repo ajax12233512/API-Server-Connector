@@ -1,7 +1,7 @@
 import 'dotenv/config'; //Dotenv will only work in this folder. Intialize in other folders to use env variable
 import express from 'express'
-import { duffel } from './code/duffel.mjs';
-import { testGoogle } from './code/googleplaces.js';
+import { duffel, testGoogle } from './code/index.js';
+
 const app = express();
 
 const port = process.env.PORT || 3001;
