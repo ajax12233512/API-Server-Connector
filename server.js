@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import express from 'express'
 import { duffel } from './code/duffel.mjs';
+import { placeQuery } from './code/googleplaces.js';
 const app = express();
 
 const port = process.env.PORT || 3001;
@@ -14,7 +15,8 @@ const aircraft = async () => {
     }
 }
 
-aircraft();
+// aircraft();
+placeQuery();
 
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`)
