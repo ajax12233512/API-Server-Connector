@@ -4,7 +4,9 @@ export const duffel = new Duffel({
     token: process.env.DUFFEL_TOKEN
 })
 
-// module.exports = duffel;
+
+
+// module.exports = duffel; //Dont use module.exports
 
 
 

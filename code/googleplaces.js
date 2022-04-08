@@ -2,7 +2,7 @@ import { Client, PlaceInputType }from '@googlemaps/google-maps-services-js'
 const key = process.env.MAPS_KEY
 const client = new Client();
 
-export const placeQuery = () =>{
+export const testGoogle = () =>{
    return client
   .findPlaceFromText({
     params: {
