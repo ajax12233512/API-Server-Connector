@@ -16,3 +16,4 @@ is subject to change depending on the knowledge of the writer.
 > import `import 'dotenv/config';` `import express from 'express'`
 3. Use Enviornment variable to protect api keys
 4. Expect to read the docs a lot. 
+5. ** When using front end library such as react.js, set proxy in client package.json to server url. Ex. `proxy: 'http://localhost:3001'`
