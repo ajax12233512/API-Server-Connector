@@ -17,3 +17,4 @@ is subject to change depending on the knowledge of the writer.
 3. Use Enviornment variable to protect api keys
 4. Expect to read the docs a lot. 
 5. ** When using front end library such as react.js, set proxy in client package.json to server url. Ex. `proxy: 'http://localhost:3001'`
+6. When server starts acting up, try changing proxy between client port and server port.
